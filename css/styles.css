@@ -1,0 +1,224 @@
+:root {
+  --black-text-color: #212121;
+  --gray-text-color: #757575;
+  --white-text-background-color: #ffffff;
+  --blue-text-background-color: #2196f3;
+  --footer-link-text-color: rgba(255, 255, 255, 0.6);
+  --hero-footer-background-color: #2f303a;
+  --team-btn-background-color: #f5f4fa;
+}
+
+body {
+  font-family: 'Roboto', 'Comfortaa', 'sans-serif';
+  color: #212121;
+}
+
+/* <!------------------- header----------------------> */
+.site-header {
+  background-color: var(--white-text-background-color);
+}
+.upper-logo,
+.bottom-logo {
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--blue-text-background-color);
+  text-decoration: none;
+}
+
+.upper-logo-studio {
+  color: var(--black-text-color);
+}
+
+.site-nav,
+.upper-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+.site-nav {
+  color: var(--black-text-color);
+}
+.site-nav.current {
+  color: var(--blue-text-background-color);
+}
+
+.upper-link {
+  color: var(--gray-text-color);
+}
+
+.site-nav:hover,
+.upper-link:hover,
+.site-nav:focus,
+.upper-link:focus {
+  color: var(--blue-text-background-color);
+}
+
+.site-navigation,
+.upper-links,
+.portfolio-filters-list,
+.project-list,
+.features-list,
+.work-list,
+.team-list {
+  list-style: none;
+}
+
+/* <!------------------ portfolio-filters ------------------> */
+.portfolio-filter-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  background-color: var(--team-btn-background-color);
+}
+
+.portfolio-filter-btn:hover,
+.portfolio-filter-btn:focus,
+.hero-btn:hover,
+.hero-btn:focus {
+  background: var(--blue-text-background-color);
+  color: var(--white-text-background-color);
+}
+
+/* <!------------------ work-exemples ------------------> */
+.project-link {
+  text-decoration: none;
+}
+
+.project-tittle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--black-text-color);
+}
+
+.project-area {
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--gray-text-color);
+}
+
+/* <!-------- contacts --------> */
+.contacts {
+  background: var(--hero-footer-background-color);
+}
+
+.bottom-logo-studio {
+  color: var(--white-text-background-color);
+}
+
+.bottom-address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--white-text-background-color);
+}
+
+.bottom-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--footer-link-text-color);
+  text-decoration: none;
+}
+
+.bottom-link:hover,
+.bottom-link:focus {
+  color: var(--blue-text-background-color);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* -------------------STUDIO------------------- */
+
+.hero {
+  background-color: var(--hero-footer-background-color);
+}
+.hero-tittle {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-text-background-color);
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  color: var(--black-text-color);
+  background-color: var(--team-btn-background-color);
+}
+
+/* -----------features-section------------ */
+
+.features-tittle {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features-text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--gray-text-color);
+}
+
+/* ----------team-section------------- */
+.team-section {
+  background-color: var(--team-btn-background-color);
+}
+.work-team-tittle {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.teammate,
+.team-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.teammate {
+  font-weight: 500;
+}
+
+.team-position {
+  color: var(--gray-text-color);
+}
