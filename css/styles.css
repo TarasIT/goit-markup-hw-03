@@ -332,6 +332,10 @@ p {
 
 /* ----------work-section------------- */
 
+.section-work {
+  padding-bottom: 94px;
+}
+
 .work-list {
   display: flex;
 }
